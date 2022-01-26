@@ -1,0 +1,231 @@
+@import 'utilities.css';
+*{
+    
+    padding: 0px;
+    margin: 0px;
+   
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right,rgb(70, 64, 64),rgb(189, 184, 184));
+color: black;
+    
+}
+header{
+    background: black;
+  clip-path:polygon(0 0,100% 0,100% 100%,70% 80%,0 100%);
+   color: white;
+  
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a:hover{
+    color: aqua;
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all .2sec;
+    text-transform: uppercase;
+}
+header nav .brand{
+    margin-right: 3rem;
+}
+.photo .left img{
+    height: 500px;
+    width: 400px;
+}
+.photo .right h2{
+    color: aqua;
+    margin: 0.5rem;
+}
+.photo .right h3{
+   
+    margin: 0.5rem;
+}
+.photo .right h6{
+    
+    margin: 0.5rem;
+}
+.photo .right p{
+    margin: 0.5rem;
+}
+    
+.brand img{
+    height: 100px;
+    width: 100px;
+}
+.photo .right{
+    margin-top: -7rem;
+}
+footer{
+    justify-content: center;
+}
+section .foot img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+section{
+    
+    text-align: center;
+    padding: 5rem 0;
+    
+}
+section table{
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+section .edu{
+    background-color: black;
+    width: 80%;
+    height: 60%;
+    margin-left: 10rem;
+    border-radius: 10px;
+}
+section .edu h3{
+    padding-top: 10px;
+}
+section table,th,td{
+   
+    /*border: 1px solid aqua;*/
+    padding: 20px;
+    color: white;
+    text-align: left;
+    
+}
+section .ski{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 77%;
+    height: 45%;
+    margin-left: 10rem;
+    padding: 20px;
+}
+section h3{
+    color: aqua;
+    margin-bottom: 5px;
+    
+    
+}
+section ul{
+    list-style: none;
+}
+section ul li{
+    padding: 10px;
+}
+
+section .wor .history .his img{
+    weight:100px;
+    height: 250px;
+    padding:2rem 7rem;
+    border-radius: 20px;
+    
+    
+}
+section .wor .history .his img:hover{
+ 
+    transform: scale(1.1);
+    
+    
+}
+section .details{
+    padding: 20px;
+    text-align: left;
+}
+section .wor{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 77%;
+    height: 60%;
+    margin-left: 10rem;
+    padding: 20px;
+}
+section .pro{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 77%;
+    height: 60%;
+    margin-left: 10rem;
+    padding: 20px;
+}
+section .container h3 {
+  padding: 10px;
+  }
+
+
+  section .container img {
+    width: 300px;
+    height: 200px;
+    
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  section .container img:hover{
+   transform: scale(1.1);
+  }
+
+
+
+  
+  .leftpane {
+      width: 33.3333333%;
+      height: 85%;
+      float: left;
+      background-color: rgb(31, 30, 30);
+      border-collapse: collapse;
+      border-radius: 10px;
+  }
+  
+  .middlepane {
+      width: 33.3333333%;
+      height: 85%;
+      float: left;
+      background-color: rgb(80, 79, 79);
+      border-collapse: collapse;
+      border-radius: 10px;
+  }
+  .rightpane {
+    width: 33.3333333%;
+    height: 85%;
+    position: relative;
+    float: right;
+    background-color: rgb(100, 98, 98);
+    border-collapse: collapse;
+    border-radius: 10px;
+  }
+  footer .foot {
+      background-color: black;
+      color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+    
+    padding: 20px;
+   
+      
+  }
+  footer img{
+      height: 100px;
+      weight:100px;
+      
+      
+  }
+  footer .foot{
+      padding-left: 550px;
+      padding-top: 50px;
+  }
+ 
+  
